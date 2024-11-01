@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(231, 228, 226) ;
+}
+@font-face{
+    font-family: ahmad;
+    src: url(Comfy\ Feeling.otf);
+}
+.contenar .firestbox{
+    display: flex;
+    font-family: arial;
+}
+.firestbox{
+    width: 100%;
+    height: 500px;
+    /* background-color:rgb(220, 209, 203); */
+    background-color: rgb(219, 203, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+@media screen and (max-width:350px) {
+    .firestbox{
+        /* width: 450px; */
+    }
+    
+}
+@media screen and (max-width:350px){
+    .firestbox .img img{
+        width: 200px;
+    }
+    
+} 
+.contenar .firestbox .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    font-family: ahmad;
+    position: fixed;
+    top: 0;
+    color: rgb(107, 96, 90);
+}
+
+
+.contenar .firestbox .nav ul{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    color: rgb(107, 96, 90);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(107, 96, 90);
+}
+@media screen and (max-width:350px) {
+    .nav a{
+        display: none;
+        
+    }
+}
+@media screen and (max-width:350px){
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        /* width: 350px; */
+        height: 70px;
+        /* background-color: #fff; */
+        border-radius: 10px;
+    background-color:rgb(220, 209, 203);
+
+        box-shadow: 0px 2px 8px 0px rgb(132, 119, 119);
+    }
+}
+@media screen and (max-width:350px){
+    .nav h1{
+        font-size: 30px;
+        /* background-color: red; */
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:350px){
+    .nav .icon{
+        /* background-color: blue; */
+        margin-right: 15px;
+    }
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid;
+}
+.nav h1{
+    font-family: inherit;
+}
+.nav .search input{
+    border: none;
+    width: 180px;
+    height: 25px;
+    border-radius: 3px;
+}
+.nav .search i{
+    position: relative;
+    left: 180px;
+    top: 2px;
+}
+.nav .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 30px;
+}
+@media screen and (max-width:350px) {
+    .nav .search{
+        display: none;
+        
+    }
+}
+.nav .icon i{
+    font-size: 20px;
+}
+.img{
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+@media screen and (max-width:350px){
+    .img{
+        /* width: 250px; */
+        /* background-color: red; */
+        /* padding-right: 50px; */
+    }
+}
+
+.firestbox .img img{
+    width: 800px;
+}
+.box1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 55px;
+    flex-direction: column;
+}
+.box1 h1{
+    padding-bottom: 50px;
+    color: rgb(107, 96, 90);
+}
+.box1 p{
+    padding-bottom: 30px;
+    color: rgb(107, 96, 90);
+}
+.box1 button{
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-family: arial;
+    background: rgb(107, 97, 86);
+    border: none;
+    border-radius: 3px;
+    border: solid 2px #000000;
+    transition: ease 0.3s;
+}
+.box1 button:hover {
+    background: #fff;
+    color: rgb(60, 225, 60);}
+
+
+    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    .navtwo{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .navtwo h1{
+        margin-left: 50px;
+        font-family: ahmad;
+    }
+    /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    .twobox{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-around;
+    }@media screen and (max-width:350px){
+        .twobox{
+            /* display: block; */
+        }
+    }
+
+    .twobox .plant1{
+        width: 170px;
+        font-family: ahmad;
+    }
+    @media screen and (max-width:350px){
+        .twobox .plant1{
+            display: none;
+        }
+    }
+    .twobox .plant1 img{
+        width: 170px;
+        height: 210px;
+        background-color: rgb(219, 203, 194);
+        border-radius: 15px;
+    }
+    .twobox .plant1 .navsmol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    .twobox .plant1 .navsmol button{
+        border-radius: 10px;
+        width: 80px;
+        height: 25px;
+        color: rgb(173, 173, 173);
+        font-family: arial;
+        background: rgb(107, 97, 86);
+        border: none;
+        border-radius: 3px;
+        transition: ease 0.3s;
+    }
+    .plant1 .navsmol button:hover {
+        color: rgb(60, 225, 60);
+    }
+
+
+
+
+
+
+
+    .twobox .plant2{
+        width: 170px;
+        /* background-color: brown; */
+        font-family: ahmad;
+    }
+    .twobox .plant2 img{
+        width: 170px;
+        height: 210px;
+        background-color:rgb(220, 209, 203);
+        border-radius: 15px;
+    }
+    .twobox .plant2 .navsmol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    .twobox .plant2 .navsmol button{
+        border-radius: 10px;
+        width: 80px;
+        height: 25px;
+        color: rgb(173, 173, 173);
+        font-family: arial;
+        background: rgb(107, 97, 86);
+        border: none;
+        border-radius: 3px;
+        transition: ease 0.3s;
+    }
+    .plant2 .navsmol button:hover {
+        color: rgb(60, 225, 60);
+    }
+
+@media screen and (max-width:350px){
+    .twobox .plant2 .navsmol{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* margin-top: 10px; */
+        
+    }
+}
+
+@media screen and (max-width:350px){
+    .twobox .plant2{
+        width: 150px;
+    }
+}
+@media screen and (max-width:350px){
+    .twobox .plant2 img{
+        width: 150px;
+        height: 180px;
+    }
+}
